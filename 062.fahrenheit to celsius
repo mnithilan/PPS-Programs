@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Register number: RA2211042010013\n\n");
+    float celsius;
+    float fahrenheit;
+    printf("Enter the temperature in Fahrenheit: ");
+    scanf("%f",&fahrenheit);
+    celsius = (fahrenheit-32)/1.8;
+    printf("Fahrenheit temperature is: %0.2f\n",fahrenheit);
+    printf("Celsius temperature is: %0.2f\n",celsius);
+     
+    return 0;
+}
