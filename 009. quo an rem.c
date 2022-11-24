@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    printf("Register number: RA2211042010013\n");
+    
     int num1;
     int num2;
     int result;
